@@ -1,0 +1,16 @@
+    //Esto estaba en GifGrid, dentro de mi componente
+    //pero se cambio por un custom hook
+    
+    // const [images, setImages] = useState([]);
+
+    // const getImages = async() =>{
+    //     const newImages = await getGifs( category );
+    //     setImages( newImages );
+    // }
+
+    // useEffect( () => {
+    //     getImages();
+    // }, []); 
+    //otro hook de react, recibe la funcion que ejecutara 
+    //y como 2do parametro un arreglo de las condiciones para ejecutarse,
+    //si se deja vacio, solo se ejecutara la primera vez que se dibuje
