@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
 
-    const [ categories, setCategories ] = useState(['El chavo']);
+    const [ categories, setCategories ] = useState(['Cyberpunk Edgerunners']);
     //los hooks no deben ser condicionales, ya que se pierde el orden de estos
     //lo que llevara a errores
 

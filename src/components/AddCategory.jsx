@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export const AddCategory = ({ onNewCategory }) => {
   
-    const [InputValue, setInputValue] = useState('Random');
+    const [InputValue, setInputValue] = useState('');
 
     const onInputChange = ({target}) => {
         setInputValue( target.value );
